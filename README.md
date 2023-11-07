@@ -4,7 +4,11 @@ docs ディレクトリの配下に各章のメモを配置しています。
 
 ## OverView
 
-TODO(ワークショップで作成したパイプラインおよびアプリケーションスタックの構成図を貼る)
+### アプリケーションスタック
+![docs/images/application.png](docs/images/application.png)
+
+### パイプライン
+![docs/images/pipeline.png](docs/images/pipeline.png)
 
 ## Environment
 
