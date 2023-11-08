@@ -7,7 +7,7 @@ docs ディレクトリの配下に各章のメモを配置しています。
 ### アプリケーションスタック
 ![docs/images/application.png](docs/images/application.png)
 
-### パイプライン
+### パイプラインスタック
 ![docs/images/pipeline.png](docs/images/pipeline.png)
 
 ## Environment
