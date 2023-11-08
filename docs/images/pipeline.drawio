@@ -1,6 +1,6 @@
-<mxfile modified="2023-11-08T10:49:53.369Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="V1GiDYYHODiG--FPe1Z3" version="22.0.8" type="google">
+<mxfile modified="2023-11-08T22:28:59.772Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="OFJaSb2x8ght0j-PctlZ" version="22.1.0" type="google">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1352" dy="1625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1149" dy="1587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,13 +22,13 @@
         <mxCell id="3tHGtT29Bu3msnip4fKE-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;startArrow=none;startFill=0;" parent="3tHGtT29Bu3msnip4fKE-6" source="3tHGtT29Bu3msnip4fKE-25" target="3tHGtT29Bu3msnip4fKE-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3tHGtT29Bu3msnip4fKE-25" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px;&quot;&gt;CodeBuild&lt;br&gt;(パイプラインを合成)&lt;br&gt;&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.codebuild;fillColor=#759C3E;gradientColor=none;strokeColor=#FFB570;fontSize=25;fontColor=#FFB570;" parent="3tHGtT29Bu3msnip4fKE-6" vertex="1">
+        <mxCell id="3tHGtT29Bu3msnip4fKE-25" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px;&quot;&gt;CodeBuild&lt;br&gt;(CDK Appを合成)&lt;br&gt;&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.codebuild;fillColor=#759C3E;gradientColor=none;strokeColor=#FFB570;fontSize=25;fontColor=#FFB570;" parent="3tHGtT29Bu3msnip4fKE-6" vertex="1">
           <mxGeometry x="242.5" y="181" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="3tHGtT29Bu3msnip4fKE-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;startArrow=none;startFill=0;" parent="3tHGtT29Bu3msnip4fKE-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="800.25" y="370" as="sourcePoint" />
-            <mxPoint x="801.25" y="310" as="targetPoint" />
+            <mxPoint x="801" y="330" as="targetPoint" />
             <Array as="points">
               <mxPoint x="800" y="341" />
               <mxPoint x="801" y="341" />
@@ -41,19 +41,19 @@
         <mxCell id="3tHGtT29Bu3msnip4fKE-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;startArrow=none;startFill=0;" parent="3tHGtT29Bu3msnip4fKE-6" source="3tHGtT29Bu3msnip4fKE-27" target="3tHGtT29Bu3msnip4fKE-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3tHGtT29Bu3msnip4fKE-27" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px;&quot;&gt;CodeBuild&lt;br&gt;(パイプラインを更新)&lt;br&gt;&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.codebuild;fillColor=#759C3E;gradientColor=none;strokeColor=#FFB570;fontSize=25;fontColor=#FFB570;" parent="3tHGtT29Bu3msnip4fKE-6" vertex="1">
+        <mxCell id="3tHGtT29Bu3msnip4fKE-27" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px;&quot;&gt;CodeBuild&lt;br&gt;(パイプライン&lt;br&gt;スタックをデプロイ)&lt;br&gt;&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.codebuild;fillColor=#759C3E;gradientColor=none;strokeColor=#FFB570;fontSize=25;fontColor=#FFB570;" parent="3tHGtT29Bu3msnip4fKE-6" vertex="1">
           <mxGeometry x="402.5" y="181" width="76.5" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="3tHGtT29Bu3msnip4fKE-29" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px;&quot;&gt;CodeBuild&lt;br&gt;(合成したCDK Appの&lt;br&gt;CloudFormation テンプレートを&lt;br&gt;S3に格納)&lt;br&gt;&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.codebuild;fillColor=#759C3E;gradientColor=none;strokeColor=#FFB570;fontSize=25;fontColor=#FFB570;" parent="3tHGtT29Bu3msnip4fKE-6" vertex="1">
+        <mxCell id="3tHGtT29Bu3msnip4fKE-29" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px;&quot;&gt;CodeBuild&lt;br&gt;(合成したCDK Appの&lt;br&gt;CloudFormation&lt;br&gt;テンプレートをS3に格納)&lt;br&gt;&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.codebuild;fillColor=#759C3E;gradientColor=none;strokeColor=#FFB570;fontSize=25;fontColor=#FFB570;" parent="3tHGtT29Bu3msnip4fKE-6" vertex="1">
           <mxGeometry x="562.5" y="181" width="76.5" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="3tHGtT29Bu3msnip4fKE-32" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px;&quot;&gt;CodeBuild&lt;br&gt;(デプロイしたアプリを&lt;br&gt;テスト)&lt;br&gt;&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.codebuild;fillColor=#759C3E;gradientColor=none;strokeColor=#FFB570;fontSize=25;fontColor=#FFB570;" parent="3tHGtT29Bu3msnip4fKE-6" vertex="1">
+        <mxCell id="3tHGtT29Bu3msnip4fKE-32" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px;&quot;&gt;CodeBuild&lt;br&gt;(デプロイした&lt;br&gt;アプリケーションをテスト)&lt;br&gt;&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.codebuild;fillColor=#759C3E;gradientColor=none;strokeColor=#FFB570;fontSize=25;fontColor=#FFB570;" parent="3tHGtT29Bu3msnip4fKE-6" vertex="1">
           <mxGeometry x="922.5" y="171" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="3tHGtT29Bu3msnip4fKE-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;startArrow=none;startFill=0;" parent="3tHGtT29Bu3msnip4fKE-6" source="3tHGtT29Bu3msnip4fKE-38" target="3tHGtT29Bu3msnip4fKE-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3tHGtT29Bu3msnip4fKE-38" value="CloudFormation&lt;br&gt;(CDK Appをデプロイ)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudformation;fillColor=#759C3E;gradientColor=none;strokeColor=#FFB570;fontSize=15;fontColor=#000000;" parent="3tHGtT29Bu3msnip4fKE-6" vertex="1">
+        <mxCell id="3tHGtT29Bu3msnip4fKE-38" value="CloudFormation&lt;br&gt;(アプリケーション&lt;br&gt;スタックをデプロイ)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudformation;fillColor=#759C3E;gradientColor=none;strokeColor=#FFB570;fontSize=15;fontColor=#000000;" parent="3tHGtT29Bu3msnip4fKE-6" vertex="1">
           <mxGeometry x="762.5" y="171" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="3tHGtT29Bu3msnip4fKE-41" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=15;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="3tHGtT29Bu3msnip4fKE-6" source="3tHGtT29Bu3msnip4fKE-29" target="3tHGtT29Bu3msnip4fKE-26" edge="1">
